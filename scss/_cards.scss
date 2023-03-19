@@ -1,0 +1,19 @@
+i {
+  margin-top: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.amount {
+  align-items: center;
+  margin-right: 5px;
+}
+
+.offer-card {
+  max-width: 68%;
+  margin: auto;
+  @include mobile {
+    max-width: 90%;
+    height: 570px;
+  }
+}
